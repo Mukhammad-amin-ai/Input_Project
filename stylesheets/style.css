@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -37,3 +39,37 @@ body {
     transform: rotate(-90deg);
 }
 
+header{
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.8);
+    display: flex;
+    gap: 120px;
+    padding: 14px 53px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+nav ul li{
+    color: #fff;
+    font-weight: bold;
+    font-size:40px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color:#91EF19;
+}
