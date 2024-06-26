@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    z-index: 10;
+    /*z-index: 10;*/
 }
 
 
