@@ -24,7 +24,7 @@ body {
 }
 
 .container marquee {
-    height: 100%;
+    height: 80%;
     display: flex;
     justify-content: flex-end;
 }
@@ -72,4 +72,56 @@ nav ul li{
 
 nav ul li:hover{
     color:#91EF19;
+}
+
+.container h2{
+    margin: 63px 0 0 120px;
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.banner-one{
+    display: flex;
+    position: absolute;
+    left: 302px;
+    top: 223px;
+    z-index: 9;
+}
+
+.banner-one .banner-txt{
+    width: 50%;
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+    text-align: end;
+    margin: 62px 0 0 70px;
+}
+
+.banner-two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 40px;
+    position: absolute;
+    left: 610px;
+    top: 620px;
+}
+
+.banner-two-text{
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.hero-text{
+    width: 850px;
+    position: absolute;
+    top: 790px;
+    left:96px;
+}
+.hero-text h2{
+    text-align: start;
+    margin-left: 0 !important;
 }
