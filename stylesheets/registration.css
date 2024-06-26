@@ -21,6 +21,8 @@ body {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
 }
 
 .container marquee {
@@ -72,4 +74,21 @@ nav ul li{
 
 nav ul li:hover{
     color:#91EF19;
+}
+
+.registration{
+    width: 1114px;
+    height: 697px;
+    background-image: url("../img/sign_out_box.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 248px;
+    right: 147px;
+}
+
+.hero-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
