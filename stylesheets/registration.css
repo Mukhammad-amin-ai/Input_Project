@@ -74,9 +74,14 @@ nav ul li{
     cursor: pointer;
 }
 
-nav ul li:hover{
-    color:#91EF19;
+nav ul li a{
+    color: #fff;
 }
+
+nav ul li a:hover{
+    color:#91EF19 !important;
+}
+
 
 .registration{
     width: 1114px;
