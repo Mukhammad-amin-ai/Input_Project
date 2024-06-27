@@ -302,7 +302,7 @@
         gap: 20px;
     }
 
-    .item-three h2{
+    .item-three h2 {
         font-size: 60px;
     }
 
@@ -371,7 +371,7 @@
         gap: 10px;
     }
 
-    .item-three h2{
+    .item-three h2 {
         top: 36%;
         right: -24%;
     }
@@ -382,7 +382,7 @@
         gap: 10px;
     }
 
-    .item-four h2{
+    .item-four h2 {
         top: 29%;
         font-size: 60px;
     }
@@ -393,7 +393,7 @@
         gap: 10px;
     }
 
-    .item-five h2{
+    .item-five h2 {
         top: 35%;
         font-size: 60px;
     }
@@ -404,7 +404,7 @@
         gap: 10px;
     }
 
-    .item-six h2{
+    .item-six h2 {
         top: 30%;
         font-size: 60px;
     }
@@ -415,26 +415,141 @@
         gap: 10px;
     }
 
-    .item-seven h2{
+    .item-seven h2 {
         top: 30%;
         font-size: 60px;
     }
-
 
     .item-seven .price {
         top: 20px;
         right: 60px;
         gap: 10px;
     }
-
-
 }
 
 @media screen and (max-width: 550px) {
+
     header {
         gap: 50px;
     }
 
+    .item-one {
+        left: 25px;
+    }
+
+    .item-two {
+        left: 25px;
+    }
+
+    .item-two h2 {
+        top: -80%;
+        right: -110%;
+        font-size: 60px;
+    }
+
+    .item-two .price h3, .item-two .price button {
+        font-size: 20px;
+    }
+
+    .item-two .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-two .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-three {
+        left: 25px;
+    }
+
+    .item-three .price h3, .item-three .price button {
+        font-size: 20px;
+    }
+
+    .item-three .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-three .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-four {
+        left: 25px;
+    }
+
+    .item-four .price h3, .item-four .price button {
+        font-size: 20px;
+    }
+
+    .item-four .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-four .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-five {
+        left: 25px;
+    }
+
+    .item-five .price h3, .item-five .price button {
+        font-size: 20px;
+    }
+
+    .item-five .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-five .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-six {
+        left: 25px;
+    }
+
+    .item-six .price h3, .item-six .price button {
+        font-size: 20px;
+    }
+
+    .item-six .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-six .price .number input[type="number"] {
+        font-size: 20px;
+    }
+
+    .item-seven {
+        left: 25px;
+    }
+
+    .item-seven .price h3, .item-seven .price button {
+        font-size: 20px;
+    }
+
+    .item-seven .price .number {
+        font-size: 16px;
+        max-width: 150px;
+        gap: 5px;
+    }
+
+    .item-seven .price .number input[type="number"] {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -446,6 +561,43 @@
         font-size: 12px;
     }
 
+    .item-one h2 {
+        top: 25%;
+        right: -27%;
+    }
+
+    .item-two h2 {
+        top: -53%;
+        right: -105%;
+    }
+
+
+    .item-three h2 {
+        top: 32%;
+        right: -32%;
+    }
+
+
+    .item-four h2 {
+        top: 25%;
+        right: -17%;
+    }
+
+
+    .item-five h2 {
+        top: 29%;
+        right: -21%;
+    }
+
+    .item-six h2 {
+        top: 28%;
+        right: -123px;
+    }
+
+    .item-seven h2 {
+        top: 25%;
+        right: -27%;
+    }
 
 }
 
@@ -462,6 +614,7 @@
     nav ul {
         gap: 25px;
     }
+
 
 }
 
