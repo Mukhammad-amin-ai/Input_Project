@@ -615,12 +615,10 @@
         gap: 25px;
     }
 
-
 }
 
 @media screen and (max-width: 430px) {
     nav ul li {
         font-size: 10px;
     }
-
 }

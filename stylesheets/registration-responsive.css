@@ -1,10 +1,24 @@
 @media screen and (max-width: 1500px) {
+    .container marquee {
+        width: 95%;
+    }
 
+    .container h1 {
+        font-size: 250px;
+    }
 }
 
 @media screen and (max-width: 1400px) {
     nav ul li {
         font-size: 35px;
+    }
+
+    .container marquee {
+        width: 85%;
+    }
+
+    .container h1 {
+        font-size: 200px;
     }
 }
 
@@ -13,16 +27,50 @@
         font-size: 30px;
     }
 
+    .container marquee {
+        width: 90%;
+    }
+
+    .container h1 {
+        font-size: 200px;
+    }
+
+    .registration {
+        width: 85%;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
     nav ul li {
         font-size: 25px;
     }
+
+    .container marquee {
+        width: 95%;
+    }
+
+    .container h1 {
+        font-size: 190px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .container marquee {
+        width: 100%;
+    }
 
+    .registration {
+        left: 100px;
+    }
+
+    .content h3:nth-of-type(1) {
+        left: 10px;
+    }
+
+    .content h3:nth-of-type(2) {
+        left: 265px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -43,6 +91,28 @@
     nav ul li {
         font-size: 20px;
     }
+
+    .container marquee {
+        width: 95%;
+    }
+
+    .container h1 {
+        font-size: 150px;
+    }
+
+    .registration {
+        width: 85%;
+        left: 90px;
+    }
+
+    .content h3:nth-of-type(1) {
+        left: -20px;
+    }
+
+    .content h3:nth-of-type(2) {
+        left: 200px;
+    }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -50,6 +120,13 @@
         font-size: 15px;
     }
 
+    .container marquee {
+        width: 90%;
+    }
+
+    .container h1 {
+        font-size: 120px;
+    }
 }
 
 
@@ -61,12 +138,57 @@
     nav ul li {
         font-size: 13px;
     }
+
+    .container marquee {
+        width: 80%;
+    }
+
+    .container h1 {
+        font-size: 100px;
+    }
+
+    .registration {
+        width: 85%;
+        left: 90px;
+    }
+
+    .content h3:nth-of-type(1) {
+        font-size: 80px;
+    }
+
+    .content h3:nth-of-type(2) {
+        font-size: 55px;
+        top: 170px;
+        left: 190px;
+    }
+
+
 }
 
 @media screen and (max-width: 700px) {
     nav ul {
         gap: 50px;
     }
+
+    .registration {
+        width: 80%;
+        left: 90px;
+    }
+
+    .content h3:nth-of-type(1) {
+        font-size: 70px;
+    }
+
+    .content h3:nth-of-type(2) {
+        font-size: 50px;
+        top: 150px;
+        left: 180px;
+    }
+
+    .hero-img img{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -78,6 +200,39 @@
         gap: 30px;
     }
 
+    .container marquee {
+        width: 70%;
+    }
+
+    .container h1 {
+        font-size: 70px;
+    }
+
+    .registration {
+        width: 80%;
+        left: 90px;
+    }
+
+    .content h3:nth-of-type(1) {
+        font-size: 50px;
+    }
+
+    .content h3:nth-of-type(2) {
+        font-size: 40px;
+        top: 130px;
+        left: 180px;
+    }
+
+    .hero-img{
+        width: 80%;
+    }
+
+    .hero-img img{
+        width: 100%;
+    }
+
+
+
 }
 
 @media screen and (max-width: 550px) {
@@ -85,6 +240,13 @@
         gap: 50px;
     }
 
+    .container marquee {
+        width: 60%;
+    }
+
+    .container h1 {
+        font-size: 50px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -94,6 +256,10 @@
 
     nav ul li {
         font-size: 12px;
+    }
+
+    .container marquee {
+        width: 70%;
     }
 
 
@@ -113,6 +279,9 @@
         gap: 25px;
     }
 
+    .container marquee {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 430px) {
