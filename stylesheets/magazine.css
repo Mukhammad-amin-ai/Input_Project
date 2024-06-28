@@ -32,7 +32,7 @@ header {
     padding: 14px 53px;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 12;
 }
 
 nav {
@@ -80,10 +80,6 @@ nav ul li a:hover {
     display: flex;
 }
 
-/*.item-one:hover{*/
-/*    background-image: url("../img/products/item-one-bg.svg");*/
-/*}*/
-
 .item-one img {
     width: 85%;
     position: absolute;
@@ -111,10 +107,6 @@ nav ul li a:hover {
     gap: 30px;
 }
 
-/*.item-one:hover .price {*/
-/*    display: flex;*/
-/*}*/
-
 .item-one .price h3 {
     font-family: "Orbitron", sans-serif;
     font-size: 30px;
@@ -129,23 +121,6 @@ nav ul li a:hover {
     cursor: pointer;
     border: none;
 }
-
-/*.item-one .price button:active {*/
-/*    background-color: #91EF19;*/
-/*    color: black;*/
-/*}*/
-
-/*.item-one .price button span:nth-child(2) {*/
-/*    display: none;*/
-/*}*/
-
-/*.item-one .price button:active span:nth-child(2) {*/
-/*    display: block;*/
-/*}*/
-
-/*.item-one .price button:active span:nth-child(1) {*/
-/*    display: none;*/
-/*}*/
 
 .item-one .price .number {
     max-width: 193px;
@@ -177,10 +152,6 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-/*.item-two:hover {*/
-/*    background-image: url("../img/products/bg-product.svg");*/
-/*}*/
-
 .item-two h2 {
     position: absolute;
     top: 27%;
@@ -199,7 +170,7 @@ nav ul li a:hover {
 }
 
 .item-two h4 {
-    z-index: 6;
+    z-index: 3;
     width: 650px;
     position: absolute;
     top: 55%;
@@ -219,10 +190,6 @@ nav ul li a:hover {
     gap: 30px;
 }
 
-/*.item-two:hover .price {*/
-/*    display: flex;*/
-/*}*/
-
 .item-two .price h3 {
     font-family: "Orbitron", sans-serif;
     font-size: 30px;
@@ -237,23 +204,6 @@ nav ul li a:hover {
     cursor: pointer;
     border: none;
 }
-
-/*.item-two .price button:hover {*/
-/*    background-color: #91EF19;*/
-/*    color: black;*/
-/*}*/
-
-/*.item-two .price button span:nth-child(2) {*/
-/*    display: none;*/
-/*}*/
-
-/*.item-two .price button:hover span:nth-child(2) {*/
-/*    display: block;*/
-/*}*/
-
-/*.item-two .price button:hover span:nth-child(1) {*/
-/*    display: none;*/
-/*}*/
 
 .item-two .price .number {
     max-width: 193px;
@@ -283,14 +233,6 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-/*.item-three:hover {*/
-/*    background-image: url("../img/products/bg-product.svg");*/
-/*}*/
-
-/*.item-three:hover .price {*/
-/*    display: flex;*/
-/*}*/
 
 .item-three h2 {
     position: absolute;
@@ -343,23 +285,6 @@ nav ul li a:hover {
     border: none;
 }
 
-/*.item-three .price button:hover {*/
-/*    background-color: #91EF19;*/
-/*    color: black;*/
-/*}*/
-
-/*.item-three .price button span:nth-child(2) {*/
-/*    display: none;*/
-/*}*/
-
-/*.item-three .price button:hover span:nth-child(2) {*/
-/*    display: block;*/
-/*}*/
-
-/*.item-three .price button:hover span:nth-child(1) {*/
-/*    display: none;*/
-/*}*/
-
 .item-three .price .number {
     max-width: 193px;
     height: 41px;
@@ -389,10 +314,6 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-/*.item-four:hover {*/
-/*    background-image: url("../img/products/bg-product.svg");*/
-/*}*/
-
 .item-four h2 {
     position: absolute;
     top: 23%;
@@ -418,10 +339,6 @@ nav ul li a:hover {
     z-index: 9;
 }
 
-/*.item-four:hover .price {*/
-/*    display: flex;*/
-/*}*/
-
 .item-four .price {
     position: absolute;
     top: 30px;
@@ -446,23 +363,6 @@ nav ul li a:hover {
     cursor: pointer;
     border: none;
 }
-
-/*.item-four .price button:hover {*/
-/*    background-color: #91EF19;*/
-/*    color: black;*/
-/*}*/
-
-/*.item-four .price button span:nth-child(2) {*/
-/*    display: none;*/
-/*}*/
-
-/*.item-four .price button:hover span:nth-child(2) {*/
-/*    display: block;*/
-/*}*/
-
-/*.item-four .price button:hover span:nth-child(1) {*/
-/*    display: none;*/
-/*}*/
 
 .item-four .price .number {
     max-width: 193px;
@@ -493,10 +393,6 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-/*.item-five:hover {*/
-/*    background-image: url("../img/products/bg-product.svg");*/
-/*}*/
-
 .item-five h2 {
     position: absolute;
     top: 20%;
@@ -525,10 +421,6 @@ nav ul li a:hover {
     z-index: 9;
 }
 
-/*.item-five:hover .price {*/
-/*    display: flex;*/
-/*}*/
-
 .item-five .price {
     position: absolute;
     top: 30px;
@@ -553,23 +445,6 @@ nav ul li a:hover {
     cursor: pointer;
     border: none;
 }
-
-/*.item-five .price button:hover {*/
-/*    background-color: #91EF19;*/
-/*    color: black;*/
-/*}*/
-
-/*.item-five .price button span:nth-child(2) {*/
-/*    display: none;*/
-/*}*/
-
-/*.item-five .price button:hover span:nth-child(2) {*/
-/*    display: block;*/
-/*}*/
-
-/*.item-five .price button:hover span:nth-child(1) {*/
-/*    display: none;*/
-/*}*/
 
 .item-five .price .number {
     max-width: 193px;
@@ -599,14 +474,6 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-/*.item-six:hover {*/
-/*    background-image: url("../img/products/bg-product.svg");*/
-/*}*/
-
-/*.item-six:hover .price {*/
-/*    display: flex;*/
-/*}*/
 
 .item-six h2 {
     position: absolute;
@@ -659,23 +526,6 @@ nav ul li a:hover {
     border: none;
 }
 
-/*.item-six .price button:hover {*/
-/*    background-color: #91EF19;*/
-/*    color: black;*/
-/*}*/
-
-/*.item-six .price button span:nth-child(2) {*/
-/*    display: none;*/
-/*}*/
-
-/*.item-six .price button:hover span:nth-child(2) {*/
-/*    display: block;*/
-/*}*/
-
-/*.item-six .price button:hover span:nth-child(1) {*/
-/*    display: none;*/
-/*}*/
-
 .item-six .price .number {
     max-width: 193px;
     height: 41px;
@@ -704,14 +554,6 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-/*.item-seven:hover {*/
-/*    background-image: url("../img/products/bg-product.svg");*/
-/*}*/
-
-/*.item-seven:hover .price {*/
-/*    display: flex;*/
-/*}*/
 
 .item-seven h2 {
     position: absolute;
@@ -764,23 +606,6 @@ nav ul li a:hover {
     cursor: pointer;
     border: none;
 }
-
-/*.item-seven .price button:hover {*/
-/*    background-color: #91EF19;*/
-/*    color: black;*/
-/*}*/
-
-/*.item-seven .price button span:nth-child(2) {*/
-/*    display: none;*/
-/*}*/
-
-/*.item-seven .price button:hover span:nth-child(2) {*/
-/*    display: block;*/
-/*}*/
-
-/*.item-seven .price button:hover span:nth-child(1) {*/
-/*    display: none;*/
-/*}*/
 
 .item-seven .price .number {
     max-width: 193px;
