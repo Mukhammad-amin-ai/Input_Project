@@ -146,16 +146,20 @@ footer nav ul li:hover {
 }
 
 .swiper-slide {
-    text-align: center;
+    width: 100%;
+    /*text-align: center;*/
+    display: flex !important;
     font-size: 18px;
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 28px 100px;
 }
 
 .swiper-slide img {
-    width: 354px;
-    height: 503px;
+    width: 70%;
+    /*height: 503px;*/
 }
 
+.swiper-slide:nth-child(1){
+    display: block !important;
+}
