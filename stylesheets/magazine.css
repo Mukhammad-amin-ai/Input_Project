@@ -75,6 +75,11 @@ nav ul li a:hover {
     display: flex;
 }
 
+.item-one:hover{
+    background-image: url("../img/products/item-one-bg.svg");
+}
+
+
 .item-one img {
     width: 85%;
     position: absolute;
@@ -170,6 +175,12 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.item-two:hover {
+    background-image: url("../img/products/bg-product.svg");
+}
+
+
 
 .item-two h2 {
     position: absolute;
@@ -273,6 +284,11 @@ nav ul li a:hover {
     background-size: contain;
 }
 
+.item-three:hover {
+    background-image: url("../img/products/bg-product.svg");
+}
+
+
 .item-three:hover .price {
     display: flex;
 }
@@ -374,6 +390,10 @@ nav ul li a:hover {
     background-size: contain;
 }
 
+.item-four:hover {
+    background-image: url("../img/products/bg-product.svg");
+}
+
 .item-four h2 {
     position: absolute;
     top: 30%;
@@ -471,6 +491,10 @@ nav ul li a:hover {
     background-image: url("../img/products/item-2v3.svg");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.item-five:hover {
+    background-image: url("../img/products/bg-product.svg");
 }
 
 .item-five h2 {
@@ -576,6 +600,10 @@ nav ul li a:hover {
     background-size: contain;
 }
 
+.item-six:hover {
+    background-image: url("../img/products/bg-product.svg");
+}
+
 .item-six:hover .price {
     display: flex;
 }
@@ -676,6 +704,10 @@ nav ul li a:hover {
     background-image: url("../img/products/item-2v3.svg");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.item-seven:hover {
+    background-image: url("../img/products/bg-product.svg");
 }
 
 .item-seven:hover .price {
