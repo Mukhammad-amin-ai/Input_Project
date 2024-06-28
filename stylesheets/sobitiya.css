@@ -133,6 +133,51 @@ h5{
 }
 
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:45px 0;
+}
+
+.swiper-slide img {
+    width: 90%;
+    height: 90%;
+}
+
+.control-btn{
+    position: absolute;
+    bottom: 15%;
+    display: flex;
+}
+
+.control-btn .swiper-button-next{
+    right: -90vw !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.control-btn .swiper-button-next:after{
+    display: none;
+}
+.control-btn .swiper-button-prev{
+    display: none;
+}
+
+h3{
+    color: #fff;
+    position: absolute;
+    bottom: 14.5%;
+    right: 15%;
+}
+
 
 footer {
     position: absolute;
