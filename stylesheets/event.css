@@ -15,7 +15,7 @@ body {
 .container {
     width: 100vw;
     max-width: 100%;
-    height: 1197px;
+    height: 882px;
     background-image: url("../img/background/bg-magazine.svg");
     background-color: #000;
     background-position: center;
@@ -87,7 +87,7 @@ nav ul li a:hover {
     width: 1070px;
     height: 560px;
     position: absolute;
-    top: 227px;
+    top: 150px;
     right: 60px;
     display: flex;
     justify-content: flex-end;
@@ -104,10 +104,10 @@ nav ul li a:hover {
 footer {
     position: absolute;
     z-index: 13;
-    bottom: -8.5%;
+    bottom: -11.5%;
     width: 100%;
     height: auto;
-    padding: 30px 58px;
+    padding: 60px 58px;
     margin-bottom: 100px;
     background-color: rgba(17, 17, 17, 0.8);
 }

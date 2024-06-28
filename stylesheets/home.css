@@ -149,10 +149,10 @@ nav ul li a:hover{
 
 footer{
     position: absolute;
-    top: 231.5%;
+    top: 223.5%;
     width: 100%;
     height: auto;
-    padding: 30px 58px;
+    padding: 60px 58px;
     margin-bottom: 100px;
     background-color: rgba(17, 17, 17, 0.8);
 }
