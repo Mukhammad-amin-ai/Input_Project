@@ -96,64 +96,41 @@ nav ul li a:hover {
     width: 848px;
     height: 410px;
     position: relative;
-    top: 10px;
+    top:70px;
     left: 60px;
-    background-image: url("../img/products/item_2.svg");
+    z-index: 10;
+    background-image: url("../img/products/item-2v3.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .item-two h2 {
     position: absolute;
-    top: 45%;
-    right: -20%;
+    top: 30%;
+    right: -18%;
     color: #fff;
     font-weight: bold;
     font-size: 100px;
     transform: rotate(270deg);
 }
 
-.item-two .price {
+.item-two img{
     position: absolute;
-    top: 100px;
-    right: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+    top: -10%;
+    z-index: 9;
 }
 
-.item-two .price h3 {
-    font-family: "Orbitron", sans-serif;
-    font-size: 30px;
-}
-
-.item-two .price button {
-    font-weight: bold;
-    font-size: 30px;
-    padding: 11px 16px;
-    color: #91EF19;
-    background-color: black;
-    cursor: pointer;
-}
-
-.item-two .price .number {
-    max-width: 193px;
-    height: 41px;
-    display: flex;
-    background: rgba(232, 232, 232, 0.7);
+.item-two h3 {
+    z-index: 6;
+    width: 688px;
+    position: absolute;
+    top: 55%;
+    left: 0;
     color: #fff;
-    font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 30px;
 }
 
-.item-two .price .number input[type="number"] {
-    width: 40px;
-    border: none;
-    font-family: "Orbitron", sans-serif;
-    font-size: 30px;
-    background: rgba(232, 232, 232, 0.7);
-}
 
 .item-three {
     width: 860px;
@@ -175,6 +152,18 @@ nav ul li a:hover {
     font-size: 100px;
     transform: rotate(270deg);
 }
+
+.item-three h3{
+    width: 658px;
+    text-align: end;
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    right: 0;
+    font-weight: normal;
+    font-size: 30px;
+}
+
 
 .item-three .price {
     position: absolute;
@@ -283,8 +272,8 @@ nav ul li a:hover {
 }
 
 .item-five {
-    width:891px;
-    height:639px;
+    width: 891px;
+    height: 639px;
     position: relative;
     top: -300px;
     left: 37%;
@@ -346,8 +335,8 @@ nav ul li a:hover {
 }
 
 .item-six {
-    width:891px;
-    height:639px;
+    width: 891px;
+    height: 639px;
     position: relative;
     top: -300px;
     left: 60px;
@@ -409,8 +398,8 @@ nav ul li a:hover {
 }
 
 .item-seven {
-    width:890px;
-    height:440px;
+    width: 890px;
+    height: 440px;
     position: relative;
     top: -300px;
     left: 35%;
@@ -472,7 +461,7 @@ nav ul li a:hover {
 }
 
 
-footer{
+footer {
     position: absolute;
     bottom: -2.8%;
     width: 100%;
@@ -487,16 +476,18 @@ footer nav ul {
     justify-content: space-between;
 }
 
-footer nav ul li:nth-child(2){
+footer nav ul li:nth-child(2) {
     margin-right: 100px;
 }
-footer nav ul li:nth-child(4){
+
+footer nav ul li:nth-child(4) {
     margin-left: 100px;
 }
 
-footer nav ul li:nth-child(4):hover{
-    color:#91EF19;
+footer nav ul li:nth-child(4):hover {
+    color: #91EF19;
 }
-footer nav ul li:nth-child(5):hover{
-    color:#91EF19;
+
+footer nav ul li:nth-child(5):hover {
+    color: #91EF19;
 }
