@@ -210,4 +210,8 @@ footer nav ul li:hover {
     color: #91EF19;
 }
 
-
+@media screen and (max-width: 1500px) {
+    footer{
+        top: 226.5%;
+    }
+}
