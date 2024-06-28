@@ -92,6 +92,73 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
+.item-one .price {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-one:hover .price {
+    display: flex;
+}
+
+.item-one .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-one .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-one .price button:hover {
+    background-color: #91EF19;
+    color: black;
+}
+
+.item-one .price button span:nth-child(2) {
+    display: none;
+}
+
+.item-one .price button:hover span:nth-child(2) {
+    display: block;
+}
+
+.item-one .price button:hover span:nth-child(1) {
+    display: none;
+}
+
+.item-one .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-one .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
+
+
+
+
 .item-two {
     width: 848px;
     height: 410px;
@@ -120,9 +187,9 @@ nav ul li a:hover {
     z-index: 9;
 }
 
-.item-two h3 {
+.item-two h4 {
     z-index: 6;
-    width: 688px;
+    width: 650px;
     position: absolute;
     top: 55%;
     left: 0;
@@ -131,25 +198,88 @@ nav ul li a:hover {
     font-size: 30px;
 }
 
+.item-two .price {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-two:hover .price {
+    display: flex;
+}
+
+.item-two .price h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+}
+
+.item-two .price button {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 11px 16px;
+    color: #91EF19;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.item-two .price button:hover {
+    background-color: #91EF19;
+    color: black;
+}
+
+.item-two .price button span:nth-child(2) {
+    display: none;
+}
+
+.item-two .price button:hover span:nth-child(2) {
+    display: block;
+}
+
+.item-two .price button:hover span:nth-child(1) {
+    display: none;
+}
+
+.item-two .price .number {
+    max-width: 193px;
+    height: 41px;
+    display: flex;
+    background: rgba(232, 232, 232, 0.7);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-two .price .number input[type="number"] {
+    width: 40px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    background: rgba(232, 232, 232, 0.7);
+}
 
 .item-three {
     width: 860px;
     height: 560px;
     position: relative;
-    top: -40px;
+    top: 100px;
     left: 37%;
-    background-image: url("../img/products/item_4.svg");
+    background-image: url("../img/products/item-2v3.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.item-three:hover  .price{
+.item-three:hover .price {
     display: flex;
 }
 
 .item-three h2 {
     position: absolute;
-    top: 62%;
+    top: 32%;
     right: -24%;
     color: #fff;
     font-weight: bold;
@@ -162,16 +292,20 @@ nav ul li a:hover {
     text-align: end;
     color: #fff;
     position: absolute;
-    top: 70%;
+    top: 45%;
     right: 0;
     font-weight: normal;
     font-size: 30px;
 }
 
+.item-three img {
+    position: absolute;
+    top: -20%;
+}
 
 .item-three .price {
     position: absolute;
-    top: 180px;
+    top: 40px;
     right: 120px;
     display: none;
     flex-direction: column;
@@ -191,6 +325,24 @@ nav ul li a:hover {
     color: #91EF19;
     background-color: black;
     cursor: pointer;
+    border: none;
+}
+
+.item-three .price button:hover {
+    background-color: #91EF19;
+    color: black;
+}
+
+.item-three .price button span:nth-child(2) {
+    display: none;
+}
+
+.item-three .price button:hover span:nth-child(2) {
+    display: block;
+}
+
+.item-three .price button:hover span:nth-child(1) {
+    display: none;
 }
 
 .item-three .price .number {
@@ -210,7 +362,6 @@ nav ul li a:hover {
     font-size: 30px;
     background: rgba(232, 232, 232, 0.7);
 }
-
 
 .item-four {
     width: 900px;
@@ -242,12 +393,12 @@ nav ul li a:hover {
     font-size: 30px;
 }
 
-.item-four img{
+.item-four img {
     position: absolute;
     top: -100px;
 }
 
-.item-four:hover .price{
+.item-four:hover .price {
     display: flex;
 }
 
@@ -273,6 +424,24 @@ nav ul li a:hover {
     color: #91EF19;
     background-color: black;
     cursor: pointer;
+    border: none;
+}
+
+.item-four .price button:hover {
+    background-color: #91EF19;
+    color: black;
+}
+
+.item-four .price button span:nth-child(2) {
+    display: none;
+}
+
+.item-four .price button:hover span:nth-child(2) {
+    display: block;
+}
+
+.item-four .price button:hover span:nth-child(1) {
+    display: none;
 }
 
 .item-four .price .number {
@@ -314,7 +483,7 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
-.item-five h4{
+.item-five h4 {
     width: 657px;
     color: #fff;
     position: absolute;
@@ -325,14 +494,14 @@ nav ul li a:hover {
     font-size: 30px;
 }
 
-.item-five img{
+.item-five img {
     position: absolute;
     top: -35%;
     left: -15%;
     z-index: 9;
 }
 
-.item-five:hover .price{
+.item-five:hover .price {
     display: flex;
 }
 
@@ -358,6 +527,24 @@ nav ul li a:hover {
     color: #91EF19;
     background-color: black;
     cursor: pointer;
+    border: none;
+}
+
+.item-five .price button:hover {
+    background-color: #91EF19;
+    color: black;
+}
+
+.item-five .price button span:nth-child(2) {
+    display: none;
+}
+
+.item-five .price button:hover span:nth-child(2) {
+    display: block;
+}
+
+.item-five .price button:hover span:nth-child(1) {
+    display: none;
 }
 
 .item-five .price .number {
@@ -389,7 +576,7 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-.item-six:hover .price{
+.item-six:hover .price {
     display: flex;
 }
 
@@ -403,14 +590,14 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
-.item-six img{
+.item-six img {
     position: absolute;
     top: -30%;
     left: -10%;
     z-index: 9;
 }
 
-.item-six h4{
+.item-six h4 {
     position: absolute;
     top: 40%;
     left: 0;
@@ -441,7 +628,26 @@ nav ul li a:hover {
     color: #91EF19;
     background-color: black;
     cursor: pointer;
+    border: none;
 }
+
+.item-six .price button:hover {
+    background-color: #91EF19;
+    color: black;
+}
+
+.item-six .price button span:nth-child(2) {
+    display: none;
+}
+
+.item-six .price button:hover span:nth-child(2) {
+    display: block;
+}
+
+.item-six .price button:hover span:nth-child(1) {
+    display: none;
+}
+
 
 .item-six .price .number {
     max-width: 193px;
@@ -472,7 +678,7 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-.item-seven:hover .price{
+.item-seven:hover .price {
     display: flex;
 }
 
@@ -486,13 +692,13 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
-.item-seven img{
+.item-seven img {
     position: absolute;
     left: -10%;
     z-index: 9;
 }
 
-.item-seven h4{
+.item-seven h4 {
     width: 573px;
     position: absolute;
     top: 60%;
@@ -525,6 +731,24 @@ nav ul li a:hover {
     color: #91EF19;
     background-color: black;
     cursor: pointer;
+    border: none;
+}
+
+.item-seven .price button:hover {
+    background-color: #91EF19;
+    color: black;
+}
+
+.item-seven .price button span:nth-child(2) {
+    display: none;
+}
+
+.item-seven .price button:hover span:nth-child(2) {
+    display: block;
+}
+
+.item-seven .price button:hover span:nth-child(1) {
+    display: none;
 }
 
 .item-seven .price .number {
@@ -544,7 +768,6 @@ nav ul li a:hover {
     font-size: 30px;
     background: rgba(232, 232, 232, 0.7);
 }
-
 
 footer {
     position: absolute;
@@ -569,6 +792,6 @@ footer nav ul li:nth-child(4) {
     margin-left: 100px;
 }
 
-footer nav ul li:hover{
-    color:#91EF19;
+footer nav ul li:hover {
+    color: #91EF19;
 }
