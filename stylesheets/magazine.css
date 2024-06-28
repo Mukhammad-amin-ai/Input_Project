@@ -96,7 +96,7 @@ nav ul li a:hover {
     width: 848px;
     height: 410px;
     position: relative;
-    top:70px;
+    top: 70px;
     left: 60px;
     z-index: 10;
     background-image: url("../img/products/item-2v3.svg");
@@ -114,7 +114,7 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
-.item-two img{
+.item-two img {
     position: absolute;
     top: -10%;
     z-index: 9;
@@ -153,7 +153,7 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
-.item-three h3{
+.item-three h3 {
     width: 658px;
     text-align: end;
     color: #fff;
@@ -212,16 +212,16 @@ nav ul li a:hover {
     width: 900px;
     height: 490px;
     position: relative;
-    top: -200px;
+    top: -100px;
     left: 60px;
-    background-image: url("../img/products/item_3v2.svg");
+    background-image: url("../img/products/item-2v3.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .item-four h2 {
     position: absolute;
-    top: 50%;
+    top: 30%;
     right: -12%;
     color: #fff;
     font-weight: bold;
@@ -229,9 +229,24 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
+.item-four h4 {
+    width: 650px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.item-four img{
+    position: absolute;
+    top: -100px;
+}
+
+
 .item-four .price {
     position: absolute;
-    top: 150px;
+    top: 30px;
     right: 120px;
     display: flex;
     flex-direction: column;
@@ -275,16 +290,16 @@ nav ul li a:hover {
     width: 891px;
     height: 639px;
     position: relative;
-    top: -300px;
+    top: -100px;
     left: 37%;
-    background-image: url("../img/products/item_5.svg");
+    background-image: url("../img/products/item-2v3.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .item-five h2 {
     position: absolute;
-    top: 60%;
+    top: 20%;
     right: -15%;
     color: #fff;
     font-weight: bold;
@@ -292,9 +307,27 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
+.item-five h4{
+    width: 657px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    text-align: end;
+    font-weight: normal;
+    font-size: 30px;
+}
+.item-five img{
+    position: absolute;
+    top: -35%;
+    left: -15%;
+    z-index: 9;
+}
+
+
 .item-five .price {
     position: absolute;
-    top: 300px;
+    top: 30px;
     right: 120px;
     display: flex;
     flex-direction: column;
