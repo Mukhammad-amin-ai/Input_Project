@@ -165,9 +165,11 @@ h5{
     align-items: center;
     gap: 10px;
 }
+
 .control-btn .swiper-button-next:after{
     display: none;
 }
+
 .control-btn .swiper-button-prev{
     display: none;
 }
@@ -204,4 +206,10 @@ footer nav ul li:nth-child(4) {
 
 footer nav ul li:hover{
     color:#91EF19;
+}
+
+@media screen and (max-width: 1500px) {
+    .expo h2{
+        right: -43%;
+    }
 }
