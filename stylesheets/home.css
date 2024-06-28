@@ -129,3 +129,9 @@ nav ul li a:hover{
     text-align: start;
     margin-left: 0 !important;
 }
+
+.banner-three{
+    position: absolute;
+    top: 1100px;
+    left:300px;
+}

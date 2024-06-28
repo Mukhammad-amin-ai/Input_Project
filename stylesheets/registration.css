@@ -15,7 +15,7 @@ body {
 .container {
     width: 100vw;
     max-width: 100%;
-    height: 1058px;
+    height: 1273px;
     background-image: url("../img/background/bg-hero.svg");
     background-color: #000;
     background-position: top;
@@ -30,7 +30,6 @@ body {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    /*z-index: 10;*/
 }
 
 
@@ -51,7 +50,7 @@ header{
     padding: 14px 53px;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 12;
 }
 
 nav{
@@ -84,14 +83,14 @@ nav ul li a:hover{
 
 
 .registration{
-    width: 1114px;
+    width: 1145px;
     height: 697px;
     background-image: url("../img/sign_out_box.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
     top: 248px;
-    left: 147px;
+    left: 100px;
 }
 
 .content{
@@ -113,19 +112,20 @@ nav ul li a:hover{
 
 .content h3:nth-of-type(2){
     position: absolute;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 70px;
     color: #fff;
     top: 214px;
     left: 350px;
     transform: rotate(-90deg);
-    z-index: 10;
+    z-index: 11;
 }
 
 .hero-img{
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     right: 0;
+    z-index: 10;
 }
 
 .form{
@@ -180,4 +180,10 @@ nav ul li a:hover{
 .email-container input[type="email"]{
     background-color: transparent;
     padding: 10px;
+}
+
+.hero-banner{
+    position: absolute;
+    bottom: 30px;
+    left:330px;
 }
