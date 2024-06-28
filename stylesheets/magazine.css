@@ -75,9 +75,9 @@ nav ul li a:hover {
     display: flex;
 }
 
-.item-one:hover{
-    background-image: url("../img/products/item-one-bg.svg");
-}
+/*.item-one:hover{*/
+/*    background-image: url("../img/products/item-one-bg.svg");*/
+/*}*/
 
 .item-one img {
     width: 85%;
@@ -100,15 +100,15 @@ nav ul li a:hover {
     position: absolute;
     top: 40px;
     right: 120px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
 
-.item-one:hover .price {
-    display: flex;
-}
+/*.item-one:hover .price {*/
+/*    display: flex;*/
+/*}*/
 
 .item-one .price h3 {
     font-family: "Orbitron", sans-serif;
@@ -125,7 +125,7 @@ nav ul li a:hover {
     border: none;
 }
 
-.item-one .price button:hover {
+.item-one .price button:active {
     background-color: #91EF19;
     color: black;
 }
@@ -134,11 +134,11 @@ nav ul li a:hover {
     display: none;
 }
 
-.item-one .price button:hover span:nth-child(2) {
+.item-one .price button:active span:nth-child(2) {
     display: block;
 }
 
-.item-one .price button:hover span:nth-child(1) {
+.item-one .price button:active span:nth-child(1) {
     display: none;
 }
 
@@ -172,16 +172,14 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-.item-two:hover {
-    background-image: url("../img/products/bg-product.svg");
-}
-
-
+/*.item-two:hover {*/
+/*    background-image: url("../img/products/bg-product.svg");*/
+/*}*/
 
 .item-two h2 {
     position: absolute;
-    top: 30%;
-    right: -18%;
+    top: 27%;
+    right: -16%;
     color: #fff;
     font-weight: bold;
     font-size: 100px;
@@ -209,15 +207,15 @@ nav ul li a:hover {
     position: absolute;
     top: 40px;
     right: 120px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
 
-.item-two:hover .price {
-    display: flex;
-}
+/*.item-two:hover .price {*/
+/*    display: flex;*/
+/*}*/
 
 .item-two .price h3 {
     font-family: "Orbitron", sans-serif;
@@ -280,14 +278,13 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-.item-three:hover {
-    background-image: url("../img/products/bg-product.svg");
-}
+/*.item-three:hover {*/
+/*    background-image: url("../img/products/bg-product.svg");*/
+/*}*/
 
-
-.item-three:hover .price {
-    display: flex;
-}
+/*.item-three:hover .price {*/
+/*    display: flex;*/
+/*}*/
 
 .item-three h2 {
     position: absolute;
@@ -319,7 +316,7 @@ nav ul li a:hover {
     position: absolute;
     top: 40px;
     right: 120px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -386,14 +383,14 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-.item-four:hover {
-    background-image: url("../img/products/bg-product.svg");
-}
+/*.item-four:hover {*/
+/*    background-image: url("../img/products/bg-product.svg");*/
+/*}*/
 
 .item-four h2 {
     position: absolute;
-    top: 30%;
-    right: -12%;
+    top: 23%;
+    right: -15%;
     color: #fff;
     font-weight: bold;
     font-size: 100px;
@@ -415,15 +412,15 @@ nav ul li a:hover {
     z-index: 9;
 }
 
-.item-four:hover .price {
-    display: flex;
-}
+/*.item-four:hover .price {*/
+/*    display: flex;*/
+/*}*/
 
 .item-four .price {
     position: absolute;
     top: 30px;
     right: 120px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -490,9 +487,9 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-.item-five:hover {
-    background-image: url("../img/products/bg-product.svg");
-}
+/*.item-five:hover {*/
+/*    background-image: url("../img/products/bg-product.svg");*/
+/*}*/
 
 .item-five h2 {
     position: absolute;
@@ -522,15 +519,15 @@ nav ul li a:hover {
     z-index: 9;
 }
 
-.item-five:hover .price {
-    display: flex;
-}
+/*.item-five:hover .price {*/
+/*    display: flex;*/
+/*}*/
 
 .item-five .price {
     position: absolute;
     top: 30px;
     right: 120px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -597,13 +594,13 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-.item-six:hover {
-    background-image: url("../img/products/bg-product.svg");
-}
+/*.item-six:hover {*/
+/*    background-image: url("../img/products/bg-product.svg");*/
+/*}*/
 
-.item-six:hover .price {
-    display: flex;
-}
+/*.item-six:hover .price {*/
+/*    display: flex;*/
+/*}*/
 
 .item-six h2 {
     position: absolute;
@@ -635,7 +632,7 @@ nav ul li a:hover {
     position: absolute;
     top: 50px;
     right: 120px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -673,7 +670,6 @@ nav ul li a:hover {
     display: none;
 }
 
-
 .item-six .price .number {
     max-width: 193px;
     height: 41px;
@@ -703,13 +699,13 @@ nav ul li a:hover {
     background-size: contain;
 }
 
-.item-seven:hover {
-    background-image: url("../img/products/bg-product.svg");
-}
+/*.item-seven:hover {*/
+/*    background-image: url("../img/products/bg-product.svg");*/
+/*}*/
 
-.item-seven:hover .price {
-    display: flex;
-}
+/*.item-seven:hover .price {*/
+/*    display: flex;*/
+/*}*/
 
 .item-seven h2 {
     position: absolute;
@@ -742,7 +738,7 @@ nav ul li a:hover {
     position: absolute;
     top: 50px;
     right: 170px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
