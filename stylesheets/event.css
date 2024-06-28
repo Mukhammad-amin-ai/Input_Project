@@ -64,6 +64,16 @@ nav ul li a:hover {
     color: #91EF19 !important;
 }
 
+h2 {
+    width: 675px;
+    position: absolute;
+    top: 346px;
+    left: 241px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+
 .event-text {
     width: 290px;
     height: 500px;
