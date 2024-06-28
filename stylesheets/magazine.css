@@ -63,6 +63,11 @@ nav ul li a:hover {
     color: #91EF19 !important;
 }
 
+.clicked {
+    background-color: #91EF19 !important;
+    color: black !important;
+}
+
 .item-one {
     width: 860px;
     height: 400px;
@@ -125,22 +130,22 @@ nav ul li a:hover {
     border: none;
 }
 
-.item-one .price button:active {
-    background-color: #91EF19;
-    color: black;
-}
+/*.item-one .price button:active {*/
+/*    background-color: #91EF19;*/
+/*    color: black;*/
+/*}*/
 
-.item-one .price button span:nth-child(2) {
-    display: none;
-}
+/*.item-one .price button span:nth-child(2) {*/
+/*    display: none;*/
+/*}*/
 
-.item-one .price button:active span:nth-child(2) {
-    display: block;
-}
+/*.item-one .price button:active span:nth-child(2) {*/
+/*    display: block;*/
+/*}*/
 
-.item-one .price button:active span:nth-child(1) {
-    display: none;
-}
+/*.item-one .price button:active span:nth-child(1) {*/
+/*    display: none;*/
+/*}*/
 
 .item-one .price .number {
     max-width: 193px;
@@ -187,6 +192,7 @@ nav ul li a:hover {
 }
 
 .item-two img {
+    width: 70%;
     position: absolute;
     top: -10%;
     z-index: 9;
@@ -232,22 +238,22 @@ nav ul li a:hover {
     border: none;
 }
 
-.item-two .price button:hover {
-    background-color: #91EF19;
-    color: black;
-}
+/*.item-two .price button:hover {*/
+/*    background-color: #91EF19;*/
+/*    color: black;*/
+/*}*/
 
-.item-two .price button span:nth-child(2) {
-    display: none;
-}
+/*.item-two .price button span:nth-child(2) {*/
+/*    display: none;*/
+/*}*/
 
-.item-two .price button:hover span:nth-child(2) {
-    display: block;
-}
+/*.item-two .price button:hover span:nth-child(2) {*/
+/*    display: block;*/
+/*}*/
 
-.item-two .price button:hover span:nth-child(1) {
-    display: none;
-}
+/*.item-two .price button:hover span:nth-child(1) {*/
+/*    display: none;*/
+/*}*/
 
 .item-two .price .number {
     max-width: 193px;
@@ -337,22 +343,22 @@ nav ul li a:hover {
     border: none;
 }
 
-.item-three .price button:hover {
-    background-color: #91EF19;
-    color: black;
-}
+/*.item-three .price button:hover {*/
+/*    background-color: #91EF19;*/
+/*    color: black;*/
+/*}*/
 
-.item-three .price button span:nth-child(2) {
-    display: none;
-}
+/*.item-three .price button span:nth-child(2) {*/
+/*    display: none;*/
+/*}*/
 
-.item-three .price button:hover span:nth-child(2) {
-    display: block;
-}
+/*.item-three .price button:hover span:nth-child(2) {*/
+/*    display: block;*/
+/*}*/
 
-.item-three .price button:hover span:nth-child(1) {
-    display: none;
-}
+/*.item-three .price button:hover span:nth-child(1) {*/
+/*    display: none;*/
+/*}*/
 
 .item-three .price .number {
     max-width: 193px;
@@ -441,22 +447,22 @@ nav ul li a:hover {
     border: none;
 }
 
-.item-four .price button:hover {
-    background-color: #91EF19;
-    color: black;
-}
+/*.item-four .price button:hover {*/
+/*    background-color: #91EF19;*/
+/*    color: black;*/
+/*}*/
 
-.item-four .price button span:nth-child(2) {
-    display: none;
-}
+/*.item-four .price button span:nth-child(2) {*/
+/*    display: none;*/
+/*}*/
 
-.item-four .price button:hover span:nth-child(2) {
-    display: block;
-}
+/*.item-four .price button:hover span:nth-child(2) {*/
+/*    display: block;*/
+/*}*/
 
-.item-four .price button:hover span:nth-child(1) {
-    display: none;
-}
+/*.item-four .price button:hover span:nth-child(1) {*/
+/*    display: none;*/
+/*}*/
 
 .item-four .price .number {
     max-width: 193px;
@@ -548,22 +554,22 @@ nav ul li a:hover {
     border: none;
 }
 
-.item-five .price button:hover {
-    background-color: #91EF19;
-    color: black;
-}
+/*.item-five .price button:hover {*/
+/*    background-color: #91EF19;*/
+/*    color: black;*/
+/*}*/
 
-.item-five .price button span:nth-child(2) {
-    display: none;
-}
+/*.item-five .price button span:nth-child(2) {*/
+/*    display: none;*/
+/*}*/
 
-.item-five .price button:hover span:nth-child(2) {
-    display: block;
-}
+/*.item-five .price button:hover span:nth-child(2) {*/
+/*    display: block;*/
+/*}*/
 
-.item-five .price button:hover span:nth-child(1) {
-    display: none;
-}
+/*.item-five .price button:hover span:nth-child(1) {*/
+/*    display: none;*/
+/*}*/
 
 .item-five .price .number {
     max-width: 193px;
@@ -653,22 +659,22 @@ nav ul li a:hover {
     border: none;
 }
 
-.item-six .price button:hover {
-    background-color: #91EF19;
-    color: black;
-}
+/*.item-six .price button:hover {*/
+/*    background-color: #91EF19;*/
+/*    color: black;*/
+/*}*/
 
-.item-six .price button span:nth-child(2) {
-    display: none;
-}
+/*.item-six .price button span:nth-child(2) {*/
+/*    display: none;*/
+/*}*/
 
-.item-six .price button:hover span:nth-child(2) {
-    display: block;
-}
+/*.item-six .price button:hover span:nth-child(2) {*/
+/*    display: block;*/
+/*}*/
 
-.item-six .price button:hover span:nth-child(1) {
-    display: none;
-}
+/*.item-six .price button:hover span:nth-child(1) {*/
+/*    display: none;*/
+/*}*/
 
 .item-six .price .number {
     max-width: 193px;
@@ -759,22 +765,22 @@ nav ul li a:hover {
     border: none;
 }
 
-.item-seven .price button:hover {
-    background-color: #91EF19;
-    color: black;
-}
+/*.item-seven .price button:hover {*/
+/*    background-color: #91EF19;*/
+/*    color: black;*/
+/*}*/
 
-.item-seven .price button span:nth-child(2) {
-    display: none;
-}
+/*.item-seven .price button span:nth-child(2) {*/
+/*    display: none;*/
+/*}*/
 
-.item-seven .price button:hover span:nth-child(2) {
-    display: block;
-}
+/*.item-seven .price button:hover span:nth-child(2) {*/
+/*    display: block;*/
+/*}*/
 
-.item-seven .price button:hover span:nth-child(1) {
-    display: none;
-}
+/*.item-seven .price button:hover span:nth-child(1) {*/
+/*    display: none;*/
+/*}*/
 
 .item-seven .price .number {
     max-width: 193px;

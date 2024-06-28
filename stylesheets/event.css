@@ -68,7 +68,8 @@ h2 {
     width: 675px;
     position: absolute;
     top: 346px;
-    left: 241px;
+    left: 187px;
+    z-index: 9;
     color: #fff;
     font-weight: normal;
     font-size: 30px;
@@ -140,8 +141,8 @@ footer nav ul li:hover {
 }
 
 .swiper {
-    width: 50%;
-    margin-left: 50% !important;
+    width: 70%;
+    margin-left: 40% !important;
     height: 100%;
 }
 
@@ -161,5 +162,6 @@ footer nav ul li:hover {
 }
 
 .swiper-slide:nth-child(1){
+    margin-left: 100px;
     display: block !important;
 }

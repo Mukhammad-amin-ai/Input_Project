@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./stylesheets/magazine.css">
     <link rel="stylesheet" href="./stylesheets/magazine-responsive.css">
     <title>Magazine</title>
+    <style>
+        .span1 { display: inline; }
+        .span2 { display: none; }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -44,7 +48,7 @@
         <h2>баннер</h2>
         <div class="price">
             <h3>1500р/шт</h3>
-            <button><span>пут</span><span>ин</span></button>
+            <button class="toggle-btn"><span class="span1">пут</span><span class="span2">ин</span></button>
             <div class="number">
                 <label for="count01">укажите количество</label>
                 <input id="count01" name="count" type="number" placeholder="1">
@@ -54,7 +58,7 @@
     <div class="item-two">
         <div class="price">
             <h3>1500р/шт</h3>
-            <button><span>пут</span><span>ин</span></button>
+            <button class="toggle-btn"><span class="span1">пут</span><span class="span2">ин</span></button>
             <div class="number">
                 <label for="count02">укажите количество</label>
                 <input id="count02" name="count" type="number" placeholder="1">
@@ -68,7 +72,7 @@
     <div class="item-three">
         <div class="price">
             <h3>1500р/шт</h3>
-            <button><span>пут</span><span>ин</span></button>
+            <button class="toggle-btn"><span class="span1">пут</span><span class="span2">ин</span></button>
             <div class="number">
                 <label for="count2">укажите количество</label>
                 <input id="count2" name="count" type="number" placeholder="1">
@@ -83,7 +87,7 @@
         <img src="./img/products/item-4.svg" alt="">
         <div class="price">
             <h3>100р/шт</h3>
-            <button><span>пут</span><span>ин</span></button>
+            <button class="toggle-btn"><span class="span1">пут</span><span class="span2">ин</span></button>
             <div class="number">
                 <label for="count3">укажите количество</label>
                 <input id="count3" name="count" type="number" placeholder="1">
@@ -96,7 +100,7 @@
     <div class="item-five">
         <div class="price">
             <h3>5000р/шт</h3>
-            <button><span>пут</span><span>ин</span></button>
+            <button class="toggle-btn"><span class="span1">пут</span><span class="span2">ин</span></button>
             <div class="number">
                 <label for="count4">укажите количество</label>
                 <input id="count4" name="count" type="number" placeholder="1">
@@ -111,7 +115,7 @@
         <img src="./img/products/item-6v2.svg" alt="">
         <div class="price">
             <h3>3500р/шт</h3>
-            <button><span>пут</span><span>ин</span></button>
+            <button class="toggle-btn"><span class="span1">пут</span><span class="span2">ин</span></button>
             <div class="number">
                 <label for="count5">укажите количество</label>
                 <input id="count5" name="count" type="number" placeholder="1">
@@ -125,7 +129,7 @@
         <img src="./img/products/item-7v2.svg" alt="">
         <div class="price">
             <h3>500р/шт</h3>
-            <button><span>пут</span><span>ин</span></button>
+            <button class="toggle-btn"><span class="span1">пут</span><span class="span2">ин</span></button>
             <div class="number">
                 <label for="count6">укажите количество</label>
                 <input id="count6" name="count" type="number" placeholder="1">
@@ -146,5 +150,23 @@
         </nav>
     </footer>
 </div>
+<script>
+    document.querySelectorAll('.toggle-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const span1 = button.querySelector('.span1');
+            const span2 = button.querySelector('.span2');
+
+            if (span1.style.display === 'none') {
+                span1.style.display = 'inline';
+                span2.style.display = 'none';
+                button.classList.remove('clicked');
+            } else {
+                span1.style.display = 'none';
+                span2.style.display = 'inline';
+                button.classList.add('clicked');
+            }
+        });
+    });
+</script>
 </body>
 </html>
