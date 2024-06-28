@@ -317,13 +317,13 @@ nav ul li a:hover {
     font-weight: normal;
     font-size: 30px;
 }
+
 .item-five img{
     position: absolute;
     top: -35%;
     left: -15%;
     z-index: 9;
 }
-
 
 .item-five .price {
     position: absolute;
@@ -371,16 +371,16 @@ nav ul li a:hover {
     width: 891px;
     height: 639px;
     position: relative;
-    top: -300px;
+    top: -200px;
     left: 60px;
-    background-image: url("../img/products/item_3.svg");
+    background-image: url("../img/products/item-2v3.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .item-six h2 {
     position: absolute;
-    top: 53%;
+    top: 30%;
     right: -23%;
     color: #fff;
     font-weight: bold;
@@ -388,9 +388,25 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
+.item-six img{
+    position: absolute;
+    top: -30%;
+    left: -10%;
+    z-index: 9;
+}
+
+.item-six h4{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+
 .item-six .price {
     position: absolute;
-    top: 200px;
+    top: 50px;
     right: 120px;
     display: flex;
     flex-direction: column;
@@ -436,25 +452,42 @@ nav ul li a:hover {
     position: relative;
     top: -300px;
     left: 35%;
-    background-image: url("../img/products/item_7v2.svg");
+    background-image: url("../img/products/item-2v3.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .item-seven h2 {
     position: absolute;
-    top: 43%;
-    right: -16%;
+    top: 35%;
+    right: -20%;
     color: #fff;
     font-weight: bold;
     font-size: 100px;
     transform: rotate(270deg);
 }
 
+.item-seven img{
+    position: absolute;
+    left: -10%;
+    z-index: 9;
+}
+
+.item-seven h4{
+    width: 573px;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    color: #fff;
+    text-align: end;
+    font-weight: normal;
+    font-size: 30px;
+}
+
 .item-seven .price {
     position: absolute;
-    top: 80px;
-    right: 200px;
+    top: 50px;
+    right: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
