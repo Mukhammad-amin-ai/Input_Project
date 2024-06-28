@@ -93,3 +93,33 @@ nav ul li a:hover {
     width: 354px;
     height: 503px;
 }
+
+footer{
+    position: absolute;
+    z-index: 13;
+    bottom: -8.5%;
+    width: 100%;
+    height: auto;
+    padding: 30px 58px;
+    margin-bottom: 100px;
+    background-color: rgba(17, 17, 17, 0.8);
+}
+
+footer nav ul {
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer nav ul li:nth-child(2){
+    margin-right: 100px;
+}
+footer nav ul li:nth-child(4){
+    margin-left: 100px;
+}
+
+footer nav ul li:nth-child(4):hover{
+    color:#91EF19;
+}
+footer nav ul li:nth-child(5):hover{
+    color:#91EF19;
+}

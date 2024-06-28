@@ -15,17 +15,16 @@ body {
 .container {
     width: 100vw;
     max-width: 100%;
-    height: 1197px;
+    height: 3500px;
     background-image: url("../img/background/bg-magazine.svg");
     background-color: #000;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    /*overflow: hidden;*/
 }
 
-header{
+header {
     width: 100%;
     background-color: rgba(17, 17, 17, 0.8);
     display: flex;
@@ -36,7 +35,7 @@ header{
     z-index: 10;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,54 +47,18 @@ nav ul {
     gap: 59px;
 }
 
-nav ul li{
+nav ul li {
     color: #fff;
     font-weight: bold;
-    font-size:40px;
+    font-size: 40px;
     transition: .3s linear;
     cursor: pointer;
 }
 
-nav ul li a{
+nav ul li a {
     color: #fff;
 }
 
-nav ul li a:hover{
-    color:#91EF19 !important;
-}
-
-.event-product{
-    position: absolute;
-    top: 227px;
-    right: 60px;
-}
-
-footer{
-    position: absolute;
-    z-index: 13;
-    bottom: -8.5%;
-    width: 100%;
-    height: auto;
-    padding: 30px 58px;
-    margin-bottom: 100px;
-    background-color: rgba(17, 17, 17, 0.8);
-}
-
-footer nav ul {
-    width: 100%;
-    justify-content: space-between;
-}
-
-footer nav ul li:nth-child(2){
-    margin-right: 100px;
-}
-footer nav ul li:nth-child(4){
-    margin-left: 100px;
-}
-
-footer nav ul li:nth-child(4):hover{
-    color:#91EF19;
-}
-footer nav ul li:nth-child(5):hover{
-    color:#91EF19;
+nav ul li a:hover {
+    color: #91EF19 !important;
 }
