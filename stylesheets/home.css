@@ -15,7 +15,7 @@ body {
 .container {
     width: 100vw;
     max-width: 100%;
-    height: 1900px;
+    height: 2000px;
     background-image: url("../img/background/bg-hero.svg");
     background-color: #000;
     background-position: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .container marquee {
-    height: 80%;
+    height: 90%;
     display: flex;
     justify-content: flex-end;
 }
@@ -84,6 +84,9 @@ nav ul li a:hover{
     color: #fff;
     font-size: 100px;
     font-weight: normal;
+    position: absolute;
+    z-index: 9;
+    left: 15%;
 }
 
 .banner-one{
@@ -91,7 +94,7 @@ nav ul li a:hover{
     position: absolute;
     left: 302px;
     top: 223px;
-    z-index: 9;
+    z-index: 8;
 }
 
 .banner-one .banner-txt{
@@ -107,10 +110,10 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 40px;
+    gap: 20px;
     position: absolute;
-    left: 610px;
-    top: 620px;
+    left: 590px;
+    top: 680px;
 }
 
 .banner-two-text{
@@ -132,24 +135,24 @@ nav ul li a:hover{
 
 .banner-three{
     position: absolute;
-    top: 1100px;
+    top: 1300px;
     left:300px;
 }
 
 .hero-text2{
     width: 655px;
     position: absolute;
-    right: 60px;
-    top: 960px;
+    right: 300px;
+    top: 1100px;
 }
 
-.hero-text2 h2{
+/*.hero-text2 h2{*/
 
-}
+/*}*/
 
 footer{
     position: absolute;
-    top: 223.5%;
+    top: 237%;
     width: 100%;
     height: auto;
     padding: 60px 58px;
