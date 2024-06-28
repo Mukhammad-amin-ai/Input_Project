@@ -18,8 +18,8 @@ body {
     height: 3650px;
     background-image: url("../img/background/bg-magazine.svg");
     background-color: #000;
-    background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-position: top;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -143,6 +143,10 @@ nav ul li a:hover {
     background-size: contain;
 }
 
+.item-three:hover  .price{
+    display: flex;
+}
+
 .item-three h2 {
     position: absolute;
     top: 62%;
@@ -153,7 +157,7 @@ nav ul li a:hover {
     transform: rotate(270deg);
 }
 
-.item-three h3 {
+.item-three h4 {
     width: 658px;
     text-align: end;
     color: #fff;
@@ -169,7 +173,7 @@ nav ul li a:hover {
     position: absolute;
     top: 180px;
     right: 120px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -243,12 +247,15 @@ nav ul li a:hover {
     top: -100px;
 }
 
+.item-four:hover .price{
+    display: flex;
+}
 
 .item-four .price {
     position: absolute;
     top: 30px;
     right: 120px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -325,11 +332,15 @@ nav ul li a:hover {
     z-index: 9;
 }
 
+.item-five:hover .price{
+    display: flex;
+}
+
 .item-five .price {
     position: absolute;
     top: 30px;
     right: 120px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -378,6 +389,10 @@ nav ul li a:hover {
     background-size: contain;
 }
 
+.item-six:hover .price{
+    display: flex;
+}
+
 .item-six h2 {
     position: absolute;
     top: 30%;
@@ -408,7 +423,7 @@ nav ul li a:hover {
     position: absolute;
     top: 50px;
     right: 120px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -457,6 +472,10 @@ nav ul li a:hover {
     background-size: contain;
 }
 
+.item-seven:hover .price{
+    display: flex;
+}
+
 .item-seven h2 {
     position: absolute;
     top: 35%;
@@ -488,7 +507,7 @@ nav ul li a:hover {
     position: absolute;
     top: 50px;
     right: 170px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 30px;
