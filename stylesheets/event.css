@@ -151,13 +151,13 @@ footer nav ul li:hover {
     /*text-align: center;*/
     display: flex !important;
     font-size: 18px;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     padding: 28px 100px;
 }
 
 .swiper-slide img {
-    width: 70%;
+    width: 275px;
     /*height: 503px;*/
 }
 
