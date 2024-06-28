@@ -39,7 +39,7 @@ body {
     transform: rotate(-90deg);
 }
 
-header{
+header {
     width: 100%;
     background-color: rgba(17, 17, 17, 0.8);
     display: flex;
@@ -50,7 +50,7 @@ header{
     z-index: 10;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,23 +62,23 @@ nav ul {
     gap: 59px;
 }
 
-nav ul li{
+nav ul li {
     color: #fff;
     font-weight: bold;
-    font-size:40px;
+    font-size: 40px;
     transition: .3s linear;
     cursor: pointer;
 }
 
-nav ul li a{
+nav ul li a {
     color: #fff;
 }
 
-nav ul li a:hover{
-    color:#91EF19 !important;
+nav ul li a:hover {
+    color: #91EF19 !important;
 }
 
-.container h2{
+.container h2 {
     margin: 63px 0 0 120px;
     text-align: center;
     color: #fff;
@@ -89,7 +89,7 @@ nav ul li a:hover{
     left: 15%;
 }
 
-.banner-one{
+.banner-one {
     display: flex;
     position: absolute;
     left: 302px;
@@ -97,7 +97,19 @@ nav ul li a:hover{
     z-index: 8;
 }
 
-.banner-one .banner-txt{
+.banner-one a .variant2 {
+    display: none;
+}
+
+.banner-one a:hover .variant1 {
+    display: none;
+}
+
+.banner-one a:hover .variant2 {
+    display: block;
+}
+
+.banner-one .banner-txt {
     width: 50%;
     font-size: 30px;
     font-weight: normal;
@@ -106,7 +118,7 @@ nav ul li a:hover{
     margin: 62px 0 0 70px;
 }
 
-.banner-two{
+.banner-two {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -116,37 +128,62 @@ nav ul li a:hover{
     top: 680px;
 }
 
-.banner-two-text{
+.banner-two a .variant2 {
+    display: none;
+}
+
+.banner-two a:hover .variant1 {
+    display: none;
+}
+
+.banner-two a:hover .variant2 {
+    display: block;
+}
+
+.banner-two-text {
     font-size: 30px;
     font-weight: normal;
     color: #fff;
 }
 
-.hero-text{
+.hero-text {
     width: 850px;
     position: absolute;
     top: 790px;
-    left:96px;
+    left: 96px;
 }
-.hero-text h2{
+
+.hero-text h2 {
     text-align: start;
     margin-left: 0 !important;
 }
 
-.banner-three{
+.banner-three {
     position: absolute;
     top: 1300px;
-    left:300px;
+    left: 300px;
 }
 
-.hero-text2{
+.banner-three a .variant2 {
+    display: none;
+}
+
+.banner-three a:hover .variant1 {
+    display: none;
+}
+
+.banner-three a:hover .variant2 {
+    display: block;
+}
+
+.hero-text2 {
     width: 655px;
     position: absolute;
     right: 300px;
     top: 1100px;
 }
 
-footer{
+footer {
     position: absolute;
     top: 235.8%;
     width: 100%;
@@ -161,13 +198,16 @@ footer nav ul {
     justify-content: space-between;
 }
 
-footer nav ul li:nth-child(2){
+footer nav ul li:nth-child(2) {
     margin-right: 100px;
 }
-footer nav ul li:nth-child(4){
+
+footer nav ul li:nth-child(4) {
     margin-left: 100px;
 }
 
-footer nav ul li:hover{
-    color:#91EF19;
+footer nav ul li:hover {
+    color: #91EF19;
 }
+
+
